@@ -2,14 +2,14 @@ package com.example.pmdmappmensajeria;
 
 public class Amigos {
     private String nombre;
-    private int numero;
+    private String numero;
 
-    public Amigos(String nombre, int numero){
+    public Amigos(String nombre, String numero){
         this.nombre = nombre;
         this.numero = numero;
     }
 
     public String getNombre() { return nombre;}
 
-    public int getNumero() { return numero;}
+    public String getNumero() { return numero;}
 }
