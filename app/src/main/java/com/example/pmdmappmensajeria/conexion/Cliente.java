@@ -3,7 +3,7 @@ package com.example.pmdmappmensajeria.conexion;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class Amigos {
+public class Cliente {
 
     private static final String URL ="http://192.168.0.22:3000";
     private static Retrofit retrofit = null;

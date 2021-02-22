@@ -52,7 +52,7 @@
             android:id="@+id/numeroAmigoNuevo"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:inputType="number" />
+            android:inputType="number"/>
     </LinearLayout>
 
     <LinearLayout
@@ -67,7 +67,7 @@
             android:id="@+id/textoEnviarAmigoNuevo"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:inputType="number" />
+            />
 
         <Button
             android:id="@+id/Enviar"

@@ -4,26 +4,26 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Mensajes {
-    @SerializedName("enviados")
+    @SerializedName("texto")
     @Expose
-    private String enviados;
-    @SerializedName("recibidos")
+    private String texto;
+    @SerializedName("enviado")
     @Expose
-    private String recibidos;
+    private boolean enviado;
 
-    public String getEnviados() {
-        return enviados;
+    public String getTexto() {
+        return texto;
     }
 
-    public void setEnviados(String enviados) {
-        this.enviados = enviados;
+    public void setTexto(String texto) {
+        this.texto = texto;
     }
 
-    public String getRecibidos() {
-        return recibidos;
+    public boolean isEnviado() {
+        return enviado;
     }
 
-    public void setRecibidos(String recibidos) {
-        this.recibidos = recibidos;
+    public void setEnviado(boolean enviado) {
+        this.enviado = enviado;
     }
 }
